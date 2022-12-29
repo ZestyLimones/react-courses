@@ -7,9 +7,9 @@ function Home() {
       <header>
         <h1>Orlando's Medical Teachings</h1>
       </header>
-      {lessons.map((lesson) => {
-        <LessonSummary lesson={lesson} key={lesson.id} />;
-      })}
+      {lessons.map((lesson) => (
+        <LessonSummary lesson={lesson} key={lesson.id} />
+      ))}
     </div>
   );
 }
