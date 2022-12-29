@@ -13,6 +13,13 @@ function Lesson() {
         </p>
         <h1>{lesson.title}</h1>
         <p>{lesson.description}</p>
+        <iframe
+          title={lesson.title}
+          src={lesson.source}
+          width="960"
+          height="569"
+          allowFullScreen={true}
+        ></iframe>
       </header>
     </div>
   );
